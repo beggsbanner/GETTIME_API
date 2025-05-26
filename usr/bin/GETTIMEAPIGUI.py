@@ -16,6 +16,7 @@ def fetch_timezones():
 
 # Create the main window
 root = tk.Tk()
+root.geometry("800x600")  # Adjust size as needed
 root.title("US Time Zones")
 
 # Add a button to fetch data
