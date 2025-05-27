@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Time Zone Widget
+Exec=usr/bin/timezone_app
+Icon=timezone_app
+Type=Application
+Categories=Utility;

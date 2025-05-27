@@ -1,0 +1,5 @@
+#!/bin/bash
+exec /home/beggsbanner/GETTIME_API/timezone_app.AppDir/usr/bin/timezone_app
+
+
+

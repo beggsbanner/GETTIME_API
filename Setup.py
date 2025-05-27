@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name="gettime-api",
     version="1.0.0",
-    author="Your Name",
-    author_email="your-email@example.com",
+    author="Ian Beggs",
+    author_email="beggsbanner@gmail.com",
     description="A Flask API with a Tkinter GUI for retrieving US time zones",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",

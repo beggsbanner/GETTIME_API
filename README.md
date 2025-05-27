@@ -73,3 +73,32 @@ SOFTWARE.
 
 📧 Contact
 For questions or suggestions, please contact: beggsbanner@gmail.com
+
+## 📌 How to Install & Create a Desktop Shortcut (Linux)
+
+### 🏗️ Step 1: Run the Application
+After generating the executable, navigate to the `dist/` folder and run:
+```bash
+./timezone_app
+
+Step 2: Create a Desktop Shortcut
+Open a terminal and create a .desktop file:
+nano ~/.local/share/applications/timezone_app.desktop
+
+[Desktop Entry]
+Name=Time Zone Widget
+Exec=/home/YOUR_USERNAME/GETTIME_API/dist/timezone_app
+Icon=/home/YOUR_USERNAME/GETTIME_API/icon.png
+Type=Application
+Terminal=false
+Categories=Utility;
+(Replace YOUR_USERNAME with your actual Linux username.)
+
+3. Make it executable:
+chmod +x ~/.local/share/applications/timezone_app.desktop
+
+4. Copy it to the Desktop for easy access:
+cp ~/.local/share/applications/timezone_app.desktop ~/Desktop/
+
+Right-click the shortcut → "Allow Launching" (if needed).
+✅ Done!
