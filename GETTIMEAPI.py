@@ -13,8 +13,13 @@ us_time_zones = [
     "America/Anchorage", "Pacific/Honolulu"
 ]
 
+@app.route('/')
+def home():
+    return "Welcome to GETTIME API! Use `/timezones` to get time zone data."
+
 @app.route('/timezones', methods=['GET'])
 def get_timezones():
+    print("Fetching timezones...")  # Debugging line
     time_data = {}
     for zone in us_time_zones:
         tz = pytz.timezone(zone)
@@ -24,3 +29,6 @@ def get_timezones():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+    
+
