@@ -3,3 +3,7 @@ dist/
 build/
 dist/
 my_env/
+my_env/
+*.spec
+doc-pak/
+description-pak/
