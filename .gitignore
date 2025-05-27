@@ -1,9 +1,15 @@
-build/
-dist/
-build/
-dist/
+# Ignore compiled and cached Python files, because they are not needed in the repository 
+__pycache__/
+*.pyc
+
+# Ignore build files
+*.deb
+*.exe
+*.rpm
+
+# Ignore virtual environment
 my_env/
-my_env/
-*.spec
-doc-pak/
-description-pak/
+
+# Ignore logs and temporary files
+*.log
+
