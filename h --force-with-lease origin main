@@ -1,0 +1,15 @@
+[33mc65afdf[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Remove LICENSE.md after merging license info into README
+[33macde4b1[m Update Flask API and Nginx integration; fix file structure and Pylance interpreter issues
+[33m2d7b264[m[33m ([m[1;31morigin/main[m[33m)[m Create LICENSE.md
+[33m0fb1546[m Create README.md
+[33me65f05d[m Removed Linux build files for Windows migration
+[33m037d37a[m Finalized package fixes before release
+[33m52e86c3[m Fixed package structure and removed unnecessary files
+[33m1dc5caa[m Moved Python scripts to usr/bin/ and set executable permissions
+[33m149aef3[m Resolved merge conflicts
+[33mdc0ab89[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m Cleaned up unnecessary files
+[33mae45d2e[m Add files via upload
+[33mca68df1[m Added .deb and .exe packages for distribution
+[33mf461459[m Excluded virtual environment from Git
+[33m062e4c8[m Added build and dist to .gitignore
+[33mada0bbe[m Initial commit: Adding GETTIME API project
