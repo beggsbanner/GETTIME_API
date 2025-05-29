@@ -1,4 +1,4 @@
-# Ignore compiled and cached Python files, because they are not needed in the repository 
+# Ignore compiled and cached Python files
 __pycache__/
 *.pyc
 
@@ -9,7 +9,24 @@ __pycache__/
 
 # Ignore virtual environment
 my_env/
+venv/
 
 # Ignore logs and temporary files
 *.log
+*.tmp
 
+# Ignore build artifacts
+build/
+dist/
+squashfs-root/
+timezone_app.AppDir/
+gettime-api-deb/
+gettime-api-deb.deb
+
+# Ignore AppImages & packaged binaries
+*.AppImage
+*.tar.gz
+*.zip
+
+# Ignore Docker-related files (if applicable)
+docker-compose.override.yml
